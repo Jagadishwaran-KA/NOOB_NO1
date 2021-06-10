@@ -1,0 +1,67 @@
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -430px;
+    margin-left:-770px;
+    z-index: 1;
+}
+div {
+    position: relative;
+    z-index: 2;
+}
+.box {
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    width: 450px;
+    background: rgba(0,0,0, 0.5);
+    color: white; 
+    border-radius: 10px; 
+    padding: 13px;       
+}
+.box-img {
+    border-radius:20px;
+
+}
+.box h1 {
+    font-family: HACKED;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+}
+.box h3 {
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: HACKED;
+}
+.box p {
+    font-family: HACKED;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+@font-face {
+    font-family: 'HACKED';
+    src: url(HACKED.ttf);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ li {
+    display: inline-block;
+     text-align: center;
+     margin: 5px;
+     font-size: 40px;
+     color: white;
+     fon
+ }
+ li a {
+     color: white;
+
+ }
+
+ li a:hover {
+     color:rgb(167, 167, 167);
+ }
